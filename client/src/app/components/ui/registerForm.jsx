@@ -22,7 +22,7 @@ const RegisterForm = () => {
         licence: false
     });
     const qualities = useSelector(getQualities());
-    // console.log(qualities);
+    console.log(qualities);
 
     const qualitiesList = qualities.map((q) => ({
         label: q.name,
